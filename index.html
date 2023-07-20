@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="./index.js"></script>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 
@@ -31,8 +32,33 @@
                         <ul class="nav-ul_two">
                             <a class="nav-link" href="#">Login</a>
                             <button class="nav-btn">Sign Up</button>
+
+                            <button class="btw-menu" onclick="openMenu()">
+                                <i class="fas fa-bars"></i>
+                            </button>
                         </ul>
+
+                       
+
                     </ul>
+
+                    <div class="menu-backdrop">
+                        <button class="btw-menu btw-menu_close" onclick="closeMenu()">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <ul>
+                            <li class="menu-list">
+                                <a href="#" class="menu-link"  onclick="closeMenu()" >Home</a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="#" class="menu-link"  onclick="closeMenu()">Books</a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="#" class="menu-link"  onclick="closeMenu()">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                  
 
                 </div>
 
@@ -58,7 +84,7 @@
                         <p class="header-para">Our templates are easy to setup, understand and customize. Fully modular
                             components with a variety of pages and components.</p>
 
-                        <div class="header-iuput">
+                        <div class="header-input">
                             <input class="header-input_area" type="email" placeholder="Your E-mail Address">
                             <button class="header-btn_get">Get Started</button>
                         </div>
