@@ -780,6 +780,7 @@ span {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    margin-bottom: 28px;
 }
 
 .faq-head_one {
@@ -805,11 +806,125 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
 }
 
 .child-faq {
-    width: 60rem;
-    height: 10rem;
-    border: 2px solid lightblue;
+    width: 50rem;
+    height: 4rem;
+    /* border: 2px solid lightblue; */
+    background-color: whitesmoke;
     border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 12px;
+}
+
+.faq-drop_question {
+    font-size: 20px;
+}
+
+
+
+/* 
+
+//// CONTACT ////
+
+*/
+
+.contact-row {
+    width: 100%;
+    max-width: 1200%;
+    margin: 0 auto;
+    padding: 60px 0;
+    margin-bottom: 60px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-content {
+    width: 70rem;
+    height: 20rem;
+    /* border: 2px solid lightblue; */
+    border-radius: 1rem;
+    background-color: #2B32B2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-head {
+    font-size: 32px;
+    color: white;
+    width: 470px;
+}
+
+.con-gt_btn {
+    padding: 20px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ED213A;
+    color: white;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: #851925 1px 1px 1px 1px;
+}
+
+.con-gt_btn:hover {
+    background-color: #851925;
+    transition: all 300ms ease;
+    transform: translate(1px);
+}
+
+.con-us_btn {
+    padding: 20px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border-radius: 2rem;
+    border: none;
+    background-color: #43C6AC;
+    box-shadow: #309c86 1px 1px 1px 1px;
+
+
+}
+
+.con-us_btn:hover {
+    background-color: #309c86;
+    transition: all 300ms ease;
+    transform: translate(1px);
+}
+
+.btn-con {
+    display: flex;
+    gap: 2rem;
+}
+
+
+/*
+
+/// FOOTER ///
+
+*/
+
+.footer-row{
+    width: 100%;
+    max-width: 1200%;
+    margin: 0 auto;
+    padding: 60px 0;
+    /* margin-bottom: 60px; */
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-an{
+    display: flex;
+    flex-direction: column;
 }
